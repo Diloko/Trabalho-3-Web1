@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        p, h1, h2, h3, h4, h5, h6, pre, table, th, td, tr{
+            color: rgb(255, 255, 255);
+        }
+        table, th, td {
+            border:1px solid white;
+        }
+        </style>
+</head>
+<body>
+    <h1>HTML Table</h1>
+    <div>
+        <p>Uma tabela em html consiste em células estruturadas em linhas e colunas</p>
+        <p>A base é feita usando a tab <b>table</b>, &lttr&gt para adicionar os parâmetros e dentro dela <b>th</b> para colunas e <b>td</b> para linhas</p>
+        <p> Atente-se para o fato de que dentro das tags, linhas e colunas devem ter o mesmo número antes de fechar, como no exemplo</p>
+        <hr>
+    <h3>Exemplo de código abaixo</h3>
+    <pre>
+        &lttable&gt
+        &lttr&gt
+          &ltth&gtCompany&lt/th&gt
+          &ltth&gtContact&lt/th&gt
+          &ltth&gtCountry&lt/th&gt
+        &lt/tr&gt
+        &lttr&gt
+          &lttd&gtAlfreds Futterkiste&lt/td&gt
+          &lttd&gtMaria Anders&lt/td&gt
+          &lttd&gtGermany&lt/td&gt
+        &lt/tr&gt
+        &lttr&gt
+          &lttd&gtCentro comercial Moctezuma&lt/td&gt
+          &lttd&gtFrancisco Chang&lt/td&gt
+          &lttd&gtMexico&lt/td&gt
+        &lt/tr&gt
+      &lt/table&gt
+      </pre>
+    </div>
+    <br>
+    <table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+      <br>
+      <p>Neste exemplo adicionamos bordas na tabela para melhor visualização</p>
+</body>
+</html>
